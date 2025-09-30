@@ -1,1 +1,27 @@
-amazon
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore large model and submission files (optional)
+*.pkl
+*.csv
+
+# But keep important dataset files (uncomment if needed)
+# !train.csv
+# !test.csv
+# !sample_submission.csv
+
+# OS files
+.DS_Store
+Thumbs.db
