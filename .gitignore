@@ -5,17 +5,15 @@ __pycache__/
 *.pyd
 
 # Ignore virtual environments
-venv/
+
 ENV/
 env/
-.venv/
+
 
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
 # Ignore large model and submission files (optional)
-*.pkl
-*.csv
 
 # But keep important dataset files (uncomment if needed)
 # !train.csv
